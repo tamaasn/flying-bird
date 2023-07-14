@@ -4,3 +4,7 @@ run:
 	./flying_bird
 clean:
 	rm -rf flying_bird
+gitpush:
+	git add .
+	git commit -m "{$commit}"
+	git push origin main
