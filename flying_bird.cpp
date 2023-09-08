@@ -260,7 +260,6 @@ void game(){
 
         if (player.rect.y > height || player.rect.y < 0){
             gameover_=true;
-            break;
         }
 
 
